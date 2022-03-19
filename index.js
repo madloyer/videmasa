@@ -1258,7 +1258,7 @@ bot.on(['document', 'video', 'photo'], async(ctx,next) => {
                         })
                         await element.replyWithDocument(document.file_id, {
                             chat_id: process.env.LOG_CHANNEL,
-                            caption: `${tag} \n\n✔️ Album disimpan \n<b>Channel:</b><a href="https://t.me/mantapvids">Mantapjozz Channel</a>\n<b>Channel File:</b> <a href="https://t.me/mantapfilestorage">Mantapjozz Storage</a>\n\n <b>Link 1 Video dibawah:</b>\nhttps://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Link Album Video :</b>\nhttps://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id} ${mediaId2} ${caption2}`,
+                            caption: `${tag} \n\n✔️ Album disimpan \n<b>Channel:</b><a href="https://t.me/mantapvids">Mantapjozz Channel</a>\n<b>Channel File:</b> <a href="https://t.me/mantapfilestorage">Mantapjozz Storage</a>\n\n <b>Link 1 Video dibawah:</b>\nhttps://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Link Album Video :</b>\nhttps://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id} ${mediaId2}/n/n ${caption2}`,
                             parse_mode:'HTML'
                         })
                         const fileDetails1 = {
@@ -1345,7 +1345,7 @@ bot.on(['document', 'video', 'photo'], async(ctx,next) => {
                         })
                         await element.replyWithVideo(video.file_id, {
                             chat_id: process.env.LOG_CHANNEL,
-                            caption: `${tag} \n\n✔️ Album disimpan \n<b>Channel:</b><a href="https://t.me/mantapvids">Mantapjozz Channel</a>\n<b>Channel File:</b> <a href="https://t.me/mantapfilestorage">Mantapjozz Storage</a>\n\n <b>Link 1 Video dibawah:</b>\nhttps://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Link Album Video :</b>\nhttps://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id} ${mediaId2} ${caption2}`,
+                            caption: `${tag} \n\n✔️ Album disimpan \n<b>Channel:</b><a href="https://t.me/mantapvids">Mantapjozz Channel</a>\n<b>Channel File:</b> <a href="https://t.me/mantapfilestorage">Mantapjozz Storage</a>\n\n <b>Link 1 Video dibawah:</b>\nhttps://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Link Album Video :</b>\nhttps://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id} ${mediaId2}/n/n ${caption2}`,
                             parse_mode:'HTML'
                         })
                         const fileDetails1 = {
