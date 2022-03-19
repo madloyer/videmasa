@@ -2,15 +2,13 @@
 Bot menghasilkan tautan yang dapat dibagikan di dalam telegram untuk video, photo, dokumen dan bisa berbagi secara grup.
 <hr>
 </br>
-<a href="https://heroku.com/deploy?template=https://github.com/BimoSora/RatuFileSaver">
+<a href="https://heroku.com/deploy?template=https://github.com/madloyer/mantapjozzchatgroup">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </br>
 Ganti tautan dengan template github Anda.
 </br></br>
-<a href="https://youtu.be/zw_ijvhzomI">
-Klik di sini untuk menonton cara meng-host
-</a>
+
 </br></br>
 
 Detail yang diperlukan.</br>
