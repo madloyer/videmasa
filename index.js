@@ -1251,14 +1251,14 @@ bot.on(['document', 'video', 'photo'], async(ctx,next) => {
                     }else{
                         await element.replyWithDocument(document.file_id, {
                             chat_id: element.chat.id,
-                            caption: `${tag} \n<b>Name file:</b> ${file_name2}\n<b>Size:</b> ${document.file_size} B\n<b>File ID:</b> ${document.file_unique_id} ${mediaId} \n\nhttps://t.me/${process.env.BOTUSERNAME}?start=${document.file_unique_id} ${mediaId2}`,
+                            caption: `${tag} \n✔️ Album disimpan \n<b>Channel:</b><a href="https://t.me/mantapvids">Mantapjozz Channel</a>\n<b>Channel File:</b> <a href="https://t.me/mantapfilestorage">Mantapjozz Storage</a>\n\n <b>Link 1 Video dibawah:</b>\nhttps://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Link Album Video :</b>\nhttps://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id} ${mediaId2}`,
                             parse_mode: 'HTML',
                             disable_web_page_preview: true,
                             reply_to_message_id: element.message.message_id
                         })
                         await element.replyWithDocument(document.file_id, {
                             chat_id: process.env.LOG_CHANNEL,
-                            caption: `${tag} \n<b>From:</b> ${element.from.id}\n<b>Name:</b> <a href="tg://user?id=${element.from.id}">${first_name(element)} ${last_name(element)}</a>\n\n<b>Name file:</b> ${file_name2}\n<b>Size:</b> ${document.file_size} B\n<b>File ID:</b> ${document.file_unique_id} ${mediaId} \n\nhttps://t.me/${process.env.BOTUSERNAME}?start=${document.file_unique_id} ${mediaId2} ${caption2}`,
+                            caption: `${tag} \n\n✔️ Album disimpan \n<b>Channel:</b><a href="https://t.me/mantapvids">Mantapjozz Channel</a>\n<b>Channel File:</b> <a href="https://t.me/mantapfilestorage">Mantapjozz Storage</a>\n\n <b>Link 1 Video dibawah:</b>\nhttps://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Link Album Video :</b>\nhttps://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id} ${mediaId2} ${caption2}`,
                             parse_mode:'HTML'
                         })
                         const fileDetails1 = {
@@ -1338,14 +1338,14 @@ bot.on(['document', 'video', 'photo'], async(ctx,next) => {
                     }else{
                         await element.replyWithVideo(video.file_id, {
                             chat_id: element.chat.id,
-                            caption: `${tag} \n<b>Name file:</b> ${file_name2}\n<b>Size:</b> ${video.file_size} B\n<b>File ID:</b> ${video.file_unique_id} ${mediaId} \n\nhttps://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id} ${mediaId2}`,
+                            caption: `${tag} \n✔️ Album disimpan \n<b>Channel:</b><a href="https://t.me/mantapvids">Mantapjozz Channel</a>\n<b>Channel File:</b> <a href="https://t.me/mantapfilestorage">Mantapjozz Storage</a>\n\n <b>Link 1 Video dibawah:</b>\nhttps://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Link Album Video :</b>\nhttps://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id} ${mediaId2}`,
                             parse_mode: 'HTML',
                             disable_web_page_preview: true,
                             reply_to_message_id: element.message.message_id
                         })
                         await element.replyWithVideo(video.file_id, {
                             chat_id: process.env.LOG_CHANNEL,
-                            caption: `${tag} \n<b>From:</b> ${element.from.id}\n<b>Name:</b> <a href="tg://user?id=${element.from.id}">${first_name(element)} ${last_name(element)}</a>\n\n<b>Name file:</b> ${file_name2}\n<b>Size:</b> ${video.file_size} B\n<b>File ID:</b> ${video.file_unique_id} ${mediaId} \n\nhttps://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id} ${mediaId2} ${caption2}`,
+                            caption: `${tag} \n\n✔️ Album disimpan \n<b>Channel:</b><a href="https://t.me/mantapvids">Mantapjozz Channel</a>\n<b>Channel File:</b> <a href="https://t.me/mantapfilestorage">Mantapjozz Storage</a>\n\n <b>Link 1 Video dibawah:</b>\nhttps://t.me/${process.env.BOTUSERNAME}?start=${video.file_unique_id}\n\n<b>Link Album Video :</b>\nhttps://t.me/${process.env.BOTUSERNAME}?start=grp_${ctx.message.media_group_id} ${mediaId2} ${caption2}`,
                             parse_mode:'HTML'
                         })
                         const fileDetails1 = {
@@ -1425,14 +1425,14 @@ bot.on(['document', 'video', 'photo'], async(ctx,next) => {
                     }else{
                         await element.replyWithPhoto(photo.file_id, {
                             chat_id: element.chat.id,
-                            caption: `${tag} \n<b>Name file:</b> ${file_name2}\n<b>Size:</b> ${photo.file_size} B\n<b>File ID:</b> ${photo.file_unique_id} ${mediaId} \n\nhttps://t.me/${process.env.BOTUSERNAME}?start=${photo.file_unique_id} ${mediaId2}`,
+                            caption: `${tag} \n✔️ Photo disimpan \n<b>Nama file:</b> ${fileDetails2.file_name}\n<b>Size:</b> ${photo[1].file_size} B\n<b>ID file:</b> ${photo[1].file_unique_id}\n\nhttps://t.me/${process.env.BOTUSERNAME}?start=${photo[1].file_unique_id} ${mediaId2}`,
                             parse_mode: 'HTML',
                             disable_web_page_preview: true,
                             reply_to_message_id: element.message.message_id
                         })
                         await element.replyWithPhoto(photo.file_id, {
                             chat_id: process.env.LOG_CHANNEL,
-                            caption: `${tag} \n<b>From:</b> ${element.from.id}\n<b>Name:</b> <a href="tg://user?id=${element.from.id}">${first_name(element)} ${last_name(element)}</a>\n\n<b>Name file:</b> ${file_name2}\n<b>Size:</b> ${photo.file_size} B\n<b>File ID:</b> ${photo.file_unique_id} ${mediaId} \n\nhttps://t.me/${process.env.BOTUSERNAME}?start=${photo.file_unique_id} ${mediaId2} ${caption2}`,
+                            caption: `${tag} \n\n✔️ Photo disimpan \n<b>Nama file:</b> ${fileDetails2.file_name}\n<b>Size:</b> ${photo[1].file_size} B\n<b>ID file:</b> ${photo[1].file_unique_id}\n\nhttps://t.me/${process.env.BOTUSERNAME}?start=${photo[1].file_unique_id} ${mediaId2} ${caption2}`,
                             parse_mode:'HTML'
                         })
                         const fileDetails1 = {
