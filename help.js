@@ -1,46 +1,49 @@
-module.exports.bothelp = `Halo, kami adalah bot File Saver. Kami akan terus memperbarui bot kami.`;
+module.exports.bothelp = `Yoo, Guwe botnya Mantapjozz Channel. Untuk Join Group Vip PPV silahkan cek list dibawah.`;
 
-module.exports.botsrc = `Kalian bisa instal sendiri, pastikan langkah diikuti dengan benar.`;
+module.exports.botcommand = `<u>Berikut adalah beberapa perintah dan penggunaan admin.</u>
+\n<b>Kegunaan Nomor US untuk agar dapat mengakses Group/Channel Yang di banned dari Nomor indo.</b>
+<b>Untuk pembelian bisa langsung Chat admin dibawah va Wa :</b>
+admin 1 : <a href="http://wa.me/380995437384">Softmilk</a>
+admin 2 : <a href="http://wa.me/84589340445">Amadeus</a>
+\nKalau gak mau beli atau mau gratisan bisa juga langsung bikin sendiri dengan gunain APK 2NDLINE\nBisa download di Playstore ataupun Googling aja dan untuk Tutorial bisa cek YT admin dibawah:
+<a href="https://youtu.be/920nA1E8ON8">Tutorial Bikin Nomor US (2ndline)</a>
+Ikuti tutorialnya yang benar biar bisa langsung dapet dan jangan nyerah jika gagal #tetapcoliwalaugakberguna
+\nUntuk Contoh testi atau contoh group yang ke banned nomor indo sehingga butuh akses Nomor Us bisa kalian kepo di group dibawah ini:
+<a href="https://t.me/testimonijasanous/28">Testimoni Mantapjozz</a>
+`;
 
-module.exports.botcommand = `<b>Berikut adalah beberapa perintah dan penggunaan admin.</b>
+module.exports.botinstall = `<u>List Join Group Vip PPV / Full Genre Indo, asian, West.</u>
+Join Vip Gudang Bokep
+Group Vip Permanent
+==================
+Group Full Indo : 50k
+Group Full Asian : 50k
+Group Full West : 50k
+Group Vip PPV  : 65k
+\nNomor Luar / US : 45k
+==================
+Group Full Indo, Asian , West : 200K
+Group VIP PPV +  Nomor US = 100K
+==================
+Group Full + PPV + Nomor Luar Negeri = 250K
+==================
+info : untuk Group PPV Media 250k ++ dan butuh Nomor selain +62 untuk akses.
+================
+note : 
+- pembayaran via ovo, dana, gopay 
+================
+untuk join silahkan chat admin👇
+admin : <a href="http://wa.me/380995437384">Softmilk</a>
 
-~ Bagaimana pengguna melarang, unban dan kick dari bot dan grup.
-<b>/ban</b> userID caption jika ada.
-<b>/banchat</b> userID (pribadi).
-<b>/unban</b> userID.
-<b>/unbanchat</b> userID (pribadi).
-<b>/kick</b> userID.
-<b>Dapatkan UserID dari saluran log.</b>
+`;
 
-~ Bagaimana cara menggunakan pin dan unpin di grup.
-<b>/pin</b> reply ke pesan yang mau di pin.
-<b>/unpin</b> reply ke pesan yang mau di unpin.
-
-~ Bagaimana cara kirim pesan ke pengguna dari grup.
-<b>/send</b> pesan. kirim pesan di grup.
-
-<b>Cara menghapus file dari bot.</b>
-Anda dapat menghapus file 4 cara.
-  ⚫ Hapus file individual dengan file_id.
-  ⚫ Hapus file grup dengan mediaId.
-  ⚫ Hapus semua file Kirim oleh pengguna.
-  ⚫ Hapus semua file Kirim ke bot.
-
-~ Hapus file individual dengan file_id.
-<b>/rem</b> file_id. Ini akan menghapus file satu per satu saat Anda memberikan file_id, dapatkan file_id dari saluran log.
-
-~ Hapus file grup dengan mediaId.
-<b>/remgrp</b> mediaId. Ini akan menghapus media dalam grup, dapatkan mediaId dari saluran log.
-
-~ Hapus semua file Kirim oleh pengguna.
-<b>/remall</b> userID. Anda dapat menghapus semua file dikirim oleh pengguna tertentu jika pengguna mengirim konten atau spam yang kasar, dapatkan userid dari saluran log.
-
-~ Hapus semua file Kirim ke bot.
-<b>/clear</b>. Ini akan menghapus semua file yang dikirim ke bot secara permanen.
-
-<b>Kirim pesan ke pengguna</b>
-<b>/broadcast</b>. Anda dapat menyiarkan pesan teks ke pengguna Anda, pesan akan dikirim dari pengguna terakhir bergabung untuk pertama-tama bergabung dengan pengguna untuk mengurangi spam. Cobalah untuk tidak mengirim terlalu banyak pesan sekaligus jika Anda memiliki sejumlah besar pengguna.
-
-<b>Cara mengetahui total pengguna bot.</b>
-<b>/stats</b>. Anda akan mendapatkan total pengguna memulai bot Anda, data waktu nyata akan diperbarui setelah siaran yang berhasil.
+module.exports.botorder = `<u>Suka sama BOT gini ? mau punya yang sama gini ?</u>
+\nKuy langsung Chat admin untuk Order ataupun untuk source Gratisnya.
+================
+Untuk Source Gratisnya Bisa Langsung Visit Link Ini : <a href="https://github.com/softmilkpc/MantapjozzSaverGroup">Softmilk</a>
+Kalau Mau tinggal beres langsung chat admin.
+================
+Order Bot silahkan chat admin👇
+Via Whatsapp : <a href="http://wa.me/380995437384">Softmilk</a>
+Via Telegram : <a href="http://t.me/softmilkpc">Softmilk PC</a> .
 `;
