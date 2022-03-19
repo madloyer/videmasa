@@ -418,7 +418,7 @@ bot.action('SRC', async(ctx)=>{
         parse_mode: 'HTML',
         reply_markup:{
             inline_keyboard: [
-                [{text: `💿 HEROKU`, url: `https://bit.ly/3yA6IRA`},{text: `💿 KOMPUTER/VPS`, url: `https://bit.ly/38qaMsS`}],
+                [{text: `Channel Utama`, url: `https://t.me/mantapvids`},{text: `Channel BOT`, url: `https://t.me/mantapfilestorage`}],
                 [{text:'Kembali',callback_data:'STARTUP'}]
             ]
         }
@@ -432,7 +432,7 @@ bot.action('HELP',async(ctx)=>{
         disable_web_page_preview: true,
         reply_markup:{
             inline_keyboard: [
-                [{text:'🪒 Perintah',callback_data:'COMM'}],
+                [{text:'Pesan Sekarang',callback_data:'COMM'}],
                 [{text:'Kembali',callback_data:'STARTUP'}]
             ]
         }
