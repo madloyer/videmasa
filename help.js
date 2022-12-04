@@ -1,4 +1,4 @@
-module.exports.bothelp = `Yoo, Guwe botnya Mantapjozz Channel. Untuk Join Group Vip PPV silahkan cek list dibawah.`;
+module.exports.bothelp = `Yoo, Guwe botnya Masakini Channel.`;
 
 module.exports.botcommand = `<u>Berikut adalah beberapa perintah dan penggunaan admin.</u>
 \n<b>Kegunaan Nomor US untuk agar dapat mengakses Group/Channel Yang di banned dari Nomor indo.</b>
